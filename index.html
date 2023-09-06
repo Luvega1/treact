@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treact Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/eb22379432.js"
+    crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <!-- Landing -->
+    <section id="landing">
+            <nav>
+                <div class="nav__container"> 
+                    <a href="" class="nav__logo">
+                        <img class="nav__img" src="./assets/t logo.svg" alt="">
+                        <h2 class="logo__name">Treact</h2>
+                        </a>     
+                    <ul class="nav__links">
+                        <li>
+                            <a href="#about" class="nav__link link__hover--effect"> About</a>
+                        </li>
+                        <li>
+                            <a href="#blog" class="nav__link link__hover--effect">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#pricing" class="nav__link link__hover--effect">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#contactus" class="nav__link link__hover--effect">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#login" class="nav__link--login link__hover--effect">Login</a>
+                        </li>
+                        <li>
+                            <a href="#signup"><button class="nav__link--primary">Sign Up
+                            </button>
+                            </a>
+                        </li>     
+                    </ul>
+                    
+                    <button class="button btn__menu" onclick="openMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="menu__backdrop">
+                        <button class="btn__menu btn__menu--close" onclick="closemenu()">
+                        <i class="fa-solid fa-times"></i>
+                        </button>
+                        <ul class="menu__links">
+                            <li class="menu__list">
+                                <a href="#" class="menu__link" onclick="closemenu()">About</a>
+                            </li>
+                            <li class="menu__list">
+                                <a href="#" class="menu__link" onclick="closemenu()">Blog</a>
+                            </li> <li class="menu__list">
+                                <a href="#" class="menu__link" onclick="closemenu()">pricing</a>
+                            </li> <li class="menu__list">
+                                <a href="#" class="menu__link" onclick="closemenu()">Contact Us</a>
+                            </li> <li class="menu__list">
+                                <a href="#" class="menu__link" onclick="closemenu()">Login</a>
+                            </li>
+<li class="menu__list">
+    <a href="">
+        <button class="menu__link--btn">
+        </button>
+    </a>
+</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </nav>
+                    </section>
+                <!--body-->
+                <header> 
+                    <div class="container">
+                        <div class="row">
+<div class="container__wrapper container__header--wrapper">
+<div class="main__content">
+<div>
+    <h1 class="section__main--title">Beautiful React Templates <span class="purple"> for you.</span></h1>
+    <p class="section__para">Our templates are easy to setup, understand and customize. fully modular components with a variety of pages and components
+    </p>
+    <div class="main__btn--wrapper">
+    <input class="main__input" type="text" placeholder="Enter E-mail Address">   
+    <button class="button main__btn">Get Started</button>
+    </div>
+    </div>
+    <div class="main__customer">
+<h3 class="main__customer--description">
+    Our trusted Customers
+</h3>
+<img src="https://treact.owaiskhan.me/static/media/customers-logo-strip.680ac7c2e8ae28161d2c.png" class="main__customer--img">
+    </div>
+    </div>
+    <figure class="main__img--wrapper">
+        <img  class="main__img" src="https://treact.owaiskhan.me/static/media/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="">
+    </figure>
+</div>
+</div>
+</div>
+                </div>
+            </div>
+            </header>  
+    
+    
+    <!--features-->
+            <main>
+<section id="features">
+    <div class="container">
+<div class="row features__wrapper">
+    <h4 class="section__subtitle purple">FEATURES</h4>
+    <h1 class="section__title section__features--title"> We have Amazing <span class="purple"> Service.</span></h1>
+    <p class="features__para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla ea dolorem iure? Fugit, voluptatibus perferendis!.
+    </p>
+    <div class="features__services">
+<div class="features__service">
+    <figure class="features__img--wrapper">
+<img class="features__img" src="https://treact.owaiskhan.me/static/media/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="">
+    </figure>
+    <div class="features__service--description">
+        <h2 class="features__service--title">Secure</h2>
+        <p class="features__description--para">
+            We strictly only deal with vendors that provide top notch security.
+        </p>
+    </div>
+</div>
+<div class="features__service">
+    <figure class="features__img--wrapper">
+<img class="features__img" src="https://treact.owaiskhan.me/static/media/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" alt="">
+    </figure>
+    <div class="features__service--description">
+        <h2 class="features__service--title">24/7 Support</h2>
+        <p class="features__description--para">
+            We provide 24/7 support for our customers
+        </p>
+    </div>
+    </div>
+<div class="features__service">
+    <figure class="features__img--wrapper">
+<img class="features__img" src="https://treact.owaiskhan.me/static/media/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" alt="">
+    </figure>
+    <div class="features__service--description">
+        <h2 class="features__service--title">Customizable</h2>
+        <p class="features__description--para">
+            Will have the abilitty to customize to your liking!
+        </p>
+    </div>
+    </div>
+<div class="features__service">
+    <figure class="features__img--wrapper">
+<img class="features__img" src="https://treact.owaiskhan.me/static/media/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="">
+    </figure>
+    <div class="features__service--description">
+        <h2 class="features__service--title">Reliable</h2>
+        <p class="features__description--para">
+            Most reliable services in the market.
+        </p>
+    </div>
+    </div>
+<div class="features__service">
+    <figure class="features__img--wrapper">
+<img class="features__img" src="https://treact.owaiskhan.me/static/media/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" alt="">
+    </figure>
+    <div class="features__service--description">
+        <h2 class="features__service--title">Fast</h2>
+        <p class="features__description--para">
+            provides fast services for your needs
+        </p>
+        </div>
+    </div>
+<div class="features__service">
+    <figure class="features__img--wrapper">
+<img class="features__img" src="https://treact.owaiskhan.me/static/media/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg" alt="">
+    </figure>
+    <div class="features__service--description">
+        <h2 class="feature__service--title">Easy</h2>
+        <p class="features__description--para">
+            Very easy to navagate and contact us!
+        </p>
+        </div>
+
+    </div>
+   
+
+
+
+</div>
+    </div>
+</div>
+</section>
+    </main>
+    </body>
+    </html>
+
+    <!--Quality-->
+<section id="quality">
+<div class="container">
+    <div class="row quality__container--wrapper">
+        <div class="quality__description--wrapper">
+            <h4 class="section__subtitle purple">Quality work</h4>
+            <h1 calss="section__title">
+                Designed & developed by <span class="purple">Professionals. </span>
+            </h1>
+<p class="section__description section__quality--description">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quo quia eaque ullam provident qui nesciunt maiores libero, deserunt nobis nisi sapiente cumque quisquam laboriosam necessitatibus odit! Illum, possimus excepturi.
+</p>
+<a href="">
+    <button class="button quality__button">Learn more</button>
+</a>
+</div>
+    <figure class="quality__img--wrapper">
+        <img class="quality__img" src="./assets/hero-screenshot-1.40a097b525c2f8c9808e.png" alt="">
+    </figure>  
+    </div>
+    </div>
+</div>
+</section>
+
+<section id="steps">
+<div class="container">
+    <div class="row steps__container--wrapper">
+        <figure class="steps__img--wrapper">
+            <img class="steps__img" src="./assets/hero-screenshot-2.241aac1fbc66db29d873.png">
+        </figure>
+        <div class="steps__description--wrapper">
+            <h4 class="section__subtitle purple">Steps</h4>
+            <h1 class="section__title">Easy to <span class="purple">Get Started.</span></h1>
+<ul class="steps__list">
+<li class="steps__wrapper">
+    <div class="steps__numbers--wrapper">
+        <h6 class="steps__numbers">01</h6>
+        <h4 class="steps__title">Register</h4>
+        <p class="steps__description">Create an account with us using Google or Facebook.</p>
+    </div>
+</li>
+<li class="steps__wrapper">
+    <div class="steps__numbers--wrapper">
+        <h6 class="steps__numbers">02</h6>
+        <h4 class="steps__title">Download</h4>
+        <p class="steps__description">Browse and downlaod the template that you like from the marketplace.</p>
+    </div>
+</li>
+<li class="steps__wrapper">
+    <div class="steps__numbers--wrapper">
+        <h6 class="steps__numbers">03</h6>
+        <h4 class="steps__title">Run</h4>
+        <p class="steps__description">Follow the instructions to setup and customize the template to your needs.</p>
+    </div>
+</li>
+</ul>
+        </div>
+    </div>
+</div>
+</section>
+
+<section id="values">
+    <div class="container">
+        <div class="row values__container--wrapper">
+            <div class="value__description--wrapper">
+                <h4 class="section__subtitle purple">Values</h4>
+                <h1 class="section__title">We Always Abide by Our <span class="purple">Principles.</span></h1>
+                <p class="section__description section__quality--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, facere suscipit quod sapiente quasi odit architecto ullam aspernatur sequi alias labore illum commodi nesciunt sit. Eos itaque maiores fugit hic.</p>
+            <div class="values__columns--wrapper">
+                <div class="values__column">
+                    <div class="values__column--title">
+                        <figure class="values__column--img-green values__column--img-wrapper"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" class="values__column--img" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M160 0c17.7 0 32 14.3 32 32V67.7c1.6 .2 3.1 .4 4.7 .7c.4 .1 .7 .1 1.1 .2l48 8.8c17.4 3.2 28.9 19.9 25.7 37.2s-19.9 28.9-37.2 25.7l-47.5-8.7c-31.3-4.6-58.9-1.5-78.3 6.2s-27.2 18.3-29 28.1c-2 10.7-.5 16.7 1.2 20.4c1.8 3.9 5.5 8.3 12.8 13.2c16.3 10.7 41.3 17.7 73.7 26.3l2.9 .8c28.6 7.6 63.6 16.8 89.6 33.8c14.2 9.3 27.6 21.9 35.9 39.5c8.5 17.9 10.3 37.9 6.4 59.2c-6.9 38-33.1 63.4-65.6 76.7c-13.7 5.6-28.6 9.2-44.4 11V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V445.1c-.4-.1-.9-.1-1.3-.2l-.2 0 0 0c-24.4-3.8-64.5-14.3-91.5-26.3c-16.1-7.2-23.4-26.1-16.2-42.2s26.1-23.4 42.2-16.2c20.9 9.3 55.3 18.5 75.2 21.6c31.9 4.7 58.2 2 76-5.3c16.9-6.9 24.6-16.9 26.8-28.9c1.9-10.6 .4-16.7-1.3-20.4c-1.9-4-5.6-8.4-13-13.3c-16.4-10.7-41.5-17.7-74-26.3l-2.8-.7 0 0C119.4 279.3 84.4 270 58.4 253c-14.2-9.3-27.5-22-35.8-39.6c-8.4-17.9-10.1-37.9-6.1-59.2C23.7 116 52.3 91.2 84.8 78.3c13.3-5.3 27.9-8.9 43.2-11V32c0-17.7 14.3-32 32-32z"/></svg>
+                        </figure>
+                        <h4 class="values__name">Affordable</h4>
+                    </div>
+                    <p class="values__column--para">We promise to offer you the best rate we can - at par with the industry standard.</p>
+                </div>
+                <div class="values__column">
+                    <div class="values__column--title">
+                        <figure class="values__column--img-red values__column--img-wrapper">
+                            <svg class="values__column--img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M176 56V96H336V56c0-4.4-3.6-8-8-8H184c-4.4 0-8 3.6-8 8zM128 96V56c0-30.9 25.1-56 56-56H328c30.9 0 56 25.1 56 56V96v32V480H128V128 96zM64 96H96V480H64c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64zM448 480H416V96h32c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64z"/></svg>
+                        </figure>
+                        <h4 class="values__name">Professionalism</h4>
+                    </div>
+                    <p class="values__column--para">We assure you that our templates are designed and created by professional designers.</p>
+                </div>
+            </div>
+            <a href="#">
+                <button class="button quality__button">Learn more</button>
+            </a>
+        </div>
+        <figure class="quality__img--wrapper">
+            <img class="values__img" src="./assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" alt="">
+        </figure>  
+    </div>
+</div>
+</div>
+        </div>
+</section>
+
+<section id="pricing">
+    <div class="container">
+        <div class="row features__wrapper">
+            <h4 class="section__subtitle purple">Pricing</h4>
+            <h1 class="section__title section__features--title">
+                Reasonable & Flexible<span class="purple">&nbsp; Plans</span>
+            </h1>
+            <p class="section__description section__features--description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias deleniti numquam fugit ullam incidunt ea, laboriosam sit iure blanditiis, enim, amet eum et facilis voluptas. Molestias ea labore corporis unde.
+            </p>
+<div class="plans">
+    <div class="plan">
+        <div class="plan__head plan__head--green"></div>
+<div class="plan__head--wrapper">
+    <div class="plan__name">Personal</div>
+    <div class="plan__price">$17.99</div>
+    <div class="plan__duration">Monthly</div>
+</div>
+<div class="plan__features--wrapper">
+    <div class="plan__features--title">For Individuals</div>
+    <div class="plan__features">30 Templates</div>
+    <div class="plan__features">7 Landing Pages</div>
+    <div class="plan__features">12 Internal Pages</div>
+    <div class="plan__features">Basic Assistance</div>
+</div>
+<div class="plan__button--wrapper">
+    <button class="plan__button plan__button--green">Buy now</button>
+</div>
+    </div>
+<div class="plan plan__purple">
+    <div class="plan__head--wrapper">
+        <div class="plan__name">Personal</div>
+        <div class="plan__price">$37.99</div>
+        <div class="plan__duration">Monthly</div>
+    </div>
+    <div class="plan__features--wrapper">
+        <div class="plan__features--title">For Small Businesses</div>
+        <div class="plan__features">60 Templates</div>
+        <div class="plan__features">15 Landing Pages</div>
+        <div class="plan__features">22 Internal Pages</div>
+        <div class="plan__features">Priority Assistance</div>
+</div>
+<div class="plan__button--wrapper">
+    <button class="plan__button plan__button--white">Buy now</button>
+</div>
+</div>
+<div class="plan">
+    <div class="plan__head plan__head--red"></div>
+    <div class="plan__head--wrapper">
+            <div class="plan__name">Personal</div>
+            <div class="plan__price">$57.99</div>
+            <div class="plan__duration">Monthly</div>
+        </div>
+        <div class="plan__features--wrapper">
+            <div class="plan__features--title">For Large Businesses</div>
+            <div class="plan__features">90 Templates</div>
+            <div class="plan__features">27 Landing Pages</div>
+            <div class="plan__features">37 Internal Pages</div>
+            <div class="plan__features">Personal Assistance</div>
+        </div>
+        <div class="plan__button--wrapper">
+            <button class="plan__button plan__button--red">Buy now</button>
+        </div>
+</div>
+</div>
+</div>
+    </div>
+</section>
+
+   <!--testimonies and reviews-->
+<section id="testimonial">
+    <div class="container">
+<div class="row testimonials__container--wrapper">
+    <figure class="testimonial__img--wrapper">
+        <img class="testimonial__img" src="./assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" alt="">
+    </figure>
+    <div class="testimonial__description--wrapper">
+        <h4 class="section__subtitle purple">Testimonials</h4>
+        <h1 class="section__title">Our Clients <span class="purple">&nbsp;Love Us.</span></h1>
+        <p class="section__description section__quality--description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod accusamus enim ipsa aperiam nobis saepe repellat fugit? Quas laborum aliquam eum doloremque omnis voluptatibus harum molestias iusto, reprehenderit quaerat odio?
+        </p>
+<div class="testimonial__stars">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>    
+    <div class="testimonial__quote--title">
+        Amazing User Experiance
+    </div>
+    <div class="testimonial__quote">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta itaque veniam repellendus quo dolorem distinctio perferendis cum adipisci sunt, accusamus cupiditate exercitationem ducimus doloremque voluptate architecto non ad totam nihil.
+    </div>
+    <div class="testimonial__person">
+        <div class="testimonial__person--wrapper">
+            <img class="testimonial__person--img" src="./assets/1B92BD26-D7DD-4E9D-B379-278A1A5A8A05_1_201_a.jpeg" alt="">
+            <div class="testimonial__person--info">
+                <h4 class="testimonial__person--name">
+                    Bernard calixte-Iqbal
+                </h4>
+                <p class="testimonial__person--city">Weatherman, USA Today Show</p>  
+            </div>
+        </div>
+        <div class="testimonial__buttons">
+            <button class="testimonial__button">
+                <svg class="testimonial__button--img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+            </button>
+        <div class="divider"></div>
+            <button class="testimonial__button">
+                <svg class="testimonial__button--img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+            </button>
+
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+<section id="faqs">
+<div class="container">
+    <div class="row">
+<h4 class="section__subtitle purple features__wrapper">
+FAQS
+</h4>
+<h1 class="section__title section__features--title">You Have <span class="purple">Questions?</span></h1>
+<div class="section__faq--description">
+    <p class="section__description">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus nobis dicta qui doloribus quam laboriosam, voluptas atque omnis modi corrupti vel alias, quo minima blanditiis libero eaque? Soluta, impedit rem?
+    </p>
+    </div>
+<div class="questions">
+    <div class="question">
+        <div class="question__wrapper">
+            <h5 class="question__name">Are all the templates easily customizable?</h5>
+        <figure class="question__arrow--wrapper">
+            <svg class="question__arrow" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/></svg>
+        </figure>
+        </div>
+         <!-- <div class="question__answer">
+                                    Yes, they all are. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.
+                                </div>-->
+                            </div>
+    <div class="question">
+        <div class="question__wrapper">
+            <h5 class="question__name">How long do you usaully support an standalone template for?</h5>
+        <figure class="question__arrow--wrapper">
+            <svg class="question__arrow" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/></svg>
+        </figure>
+        </div>
+        <!-- <div class="question__answer">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus debitis
+                                    nam similique. Odio, perferendis itaque consequatur sint doloribus repellat,
+                                    reprehenderit magni laboriosam, dolorem veritatis aliquam eveniet ex assumenda
+                                    voluptatem amet aspernatur commodi consectetur eaque et cum fugiat! Consequatur,
+                                    dolorum dolor.
+                                </div>-->
+                            </div>
+    <div class="question">
+        <div class="question__wrapper">
+            <h5 class="question__name">what kind of payment methods do you accept?</h5>
+        <figure class="question__arrow--wrapper">
+            <svg class="question__arrow" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/></svg>
+        </figure>
+        </div>
+          <!-- <div class="question__answer">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus debitis
+                                    nam similique. Odio, perferendis itaque consequatur sint doloribus repellat,
+                                    reprehenderit magni laboriosam, dolorem veritatis aliquam eveniet ex assumenda
+                                    voluptatem amet aspernatur commodi consectetur eaque et cum fugiat! Consequatur,
+                                    dolorum dolor.
+                                </div>-->
+                                </div>
+    <div class="question">
+        <div class="question__wrapper">
+            <h5 class="question__name">Is there a subscription service to get the lastest templates?</h5>
+        <figure class="question__arrow--wrapper">
+            <svg class="question__arrow" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/></svg>
+        </figure>
+        </div>
+        <!-- <div class="question__answer">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus debitis
+                                    nam similique. Odio, perferendis itaque consequatur sint doloribus repellat,
+                                    reprehenderit magni laboriosam, dolorem veritatis aliquam eveniet ex assumenda
+                                    voluptatem amet aspernatur commodi consectetur eaque et cum fugiat! Consequatur,
+                                    dolorum dolor.
+                                </div>-->
+                            </div>
+    <div class="question">
+        <div class="question__wrapper">
+            <h5 class="question__name">Are the templates compatible with the react?</h5>
+        <figure class="question__arrow--wrapper">
+            <svg class="question__arrow" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/></svg>
+        </figure>
+        </div>
+        <!-- <div class="question__answer">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus debitis
+                                    nam similique. Odio, perferendis itaque consequatur sint doloribus repellat,
+                                    reprehenderit magni laboriosam, dolorem veritatis aliquam eveniet ex assumenda
+                                    voluptatem amet aspernatur commodi consectetur eaque et cum fugiat! Consequatur,
+                                    dolorum dolor.
+                                </div>-->
+                            </div>
+    <div class="question">
+        <div class="question__wrapper">
+            <h5 class="question__name">Do you really support internet explore 11?</h5>
+        <figure class="question__arrow--wrapper">
+            <svg class="question__arrow" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"/></svg>
+        </figure>
+        </div>
+        <!-- <div class="question__answer">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus debitis
+                                    nam similique. Odio, perferendis itaque consequatur sint doloribus repellat,
+                                    reprehenderit magni laboriosam, dolorem veritatis aliquam eveniet ex assumenda
+                                    voluptatem amet aspernatur commodi consectetur eaque et cum fugiat! Consequatur,
+                                    dolorum dolor.
+                                </div>-->
+                            </div>
+    </div>
+</div>
+</section>
+<section id="getstarted">
+    <div class="container">
+        <div class="row">
+            <div class="getstarted__wrapper">
+                <h5 class="getstarted__text">Developers all over the world are happily using Treact.</h5>
+            <div class="getstarted__buttons">
+                <a href="https://www.google.com/">
+                    <button class="getstarted__button getstarted__button--orange">Get Started</button>
+                </a>
+                <a href="https://www.google.com/">
+                    <button class="getstarted__button getstarted__button--purple">Contact  Us</button>
+                </a>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+<footer>
+    <svg viewBox="0 0 600 600" class="decoration">
+        <path d="M153.6,-239C199.1,-209.8,236,-167.2,258.4,-118C280.9,-68.9,288.9,-13.1,281.2,40.4C273.5,93.9,250.1,145.2,214.7,186.1C179.3,226.9,131.9,257.4,80,272.6C28.2,287.8,-28.2,287.8,-80,272.6C-131.9,257.4,-179.3,226.9,-214.7,186.1C-250.1,145.2,-273.5,93.9,-281.2,40.4C-288.9,-13.1,-280.9,-68.9,-258.4,-118C-236,-167.2,-199.1,-209.8,-153.6,-239C-108.1,-268.3,-54.1,-284.1,0,-284.1C54.1,-284.1,108.1,-268.3,153.6,-239Z" fill="currentColor"></path>
+    </svg>
+    <div class="footer__container">
+        <div class="footer__lists--wrapper">
+            <div class="footer__list--wrapper">
+                <h5 class="footer__list--title">Main</h5>
+                <ul class="footer__links">
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">Blog</a>
+                    </li>
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">FAQs</a>
+                    </li>
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">Support</a>
+                    </li>
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">About Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__list--wrapper">
+                <h5 class="footer__list--title">Product</h5>
+                <ul class="footer__links">
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">Log in</a>
+                    </li>
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">Personal</a>
+                    </li>
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">Business</a>
+                    </li>
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">Team</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__list--wrapper">
+                <h5 class="footer__list--title">Press</h5>
+                <ul class="footer__links">
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">Logos</a>
+                    </li>
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">Events</a>
+                    </li>
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">Stories</a>
+                    </li>
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">Office</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__list--wrapper">
+                <h5 class="footer__list--title">Team</h5>
+                <ul class="footer__links">
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">Career</a>
+                    </li>
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">Founders</a>
+                    </li>
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">Culture</a>
+                    </li>
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">Onboarding</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__list--wrapper">
+                <h5 class="footer__list--title">Legal</h5>
+                <ul class="footer__links">
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">GDPR</a>
+                    </li>
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">Privacy Policy</a>
+                    </li>
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">Terms of Service</a>
+                    </li>
+                    <li class="footer__link--wrapper">
+                        <a href="#" class="footer__link">Disclaimer</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <div class="footer__divider">
+    </div>
+    <div class="footer__copyrights--wrapper">
+        <figure class="footer__logo--wrapper">
+            <img class="footer__logo--img" src="./assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" alt="">
+            <h5 class="footer__logo--name">Treat Inc.</h5>
+        </figure>
+        <div class="footer__copyrights">&copy; 2018 Treat Inc. All rights Reserved.</div>
+
+        <div class="footer__icons--wrapper">
+            <a href="https://www.facebook.com/" class="footer__icon">
+                <svg class="footer__icon--img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+            </a>
+            <a href="https://www.twitter.com/" class="footer__icon">
+                <svg class="footer__icon--img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/" class="footer__icon">
+                <svg class="footer__icon--img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+            </a>
+        </div>
+    </div>
+    </div>
+</footer>
+
+</body>
+</html>

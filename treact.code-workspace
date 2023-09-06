@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../advanced Portfolio"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "treact"
+  }
+}
