@@ -1139,10 +1139,15 @@ border-bottom: 2px  solid rgb(116, 44, 255);
   max-width: 448px;
 }
 
+.main__customer{
+  margin-top: 40px;
+}
+
 .main__customer--img{
   max-width: 512px;
   padding: 0;
 }
+
 
 .main__img--wrapper{
   width: 100%;
@@ -1165,6 +1170,12 @@ padding: 0;
 
 .values__columns--wrapper{
   flex-direction: column;
+}
+
+.plan{
+  width: 100%;
+  max-width: 384px;
+  margin-right: 0;
 }
 
 .plans{
@@ -1215,6 +1226,24 @@ padding: 0;
   align-items: center;
   max-width: 448px;
  }
+
+ .quality__container--wrapper,
+ .values__container--wrapper{
+  flex-direction: column-reverse;
+ }
+
+.steps__container--wrapper,
+.testimonials__container--wrapper{
+  flex-direction: column; 
+}
+
+.quality__img--wrapper,
+.steps__img--wrapper,
+.testimonial__img--wrapper{
+  width: 100%;
+}
+
+
  .quality__description--wrapper,
  .steps__description--wrapper,
  .value__description--wrapper,
@@ -1225,9 +1254,13 @@ padding: 0;
   margin-top: 64px;
  }
 
- .steps__img--wrapper{
+.steps__wrapper{
+  flex-direction: column;
+}
+
+.steps__para--wrapper{
   margin-top: 12px;
- }
+}
 
  .footer__copyrights--wrapper{
   display: flex;
